@@ -1,0 +1,29 @@
+<!-- pages/todos/todos.wxml -->
+<view class="container">
+    <view class="search">
+        <image src="../../images/plus.png" />
+        <input type="text" placeholder="请输入要完成的事情" />
+    </view>
+    <view class="todos">
+        <view>
+            <icon type="success" size="20"/>
+            <text>学习英语</text>
+            <icon type="clear" size="20" />
+        </view>
+         <view>
+            <icon type="circle" size="20" color="red" />
+            <text>学习英语</text>
+            <icon type="clear" size="20" />
+        </view>
+         <view>
+            <icon type="circle" size="20" color="red" />
+            <text>学习英语</text>
+            <icon type="clear" size="20" />
+        </view>
+    </view>
+    <view class="footer">
+        <text>全部完成</text>
+        <text>0项完成</text>
+        <text>删除全部</text>
+    </view>
+</view>

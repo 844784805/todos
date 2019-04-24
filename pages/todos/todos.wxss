@@ -1,0 +1,10 @@
+/* pages/todos/todos.wxss */
+.container{
+    border-top: 1rpx solid #333;
+}
+
+.search{
+    display: flex;
+    border: 1rpx solid #999;
+    margin-top: 20rpx;
+}
