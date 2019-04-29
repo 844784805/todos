@@ -1,10 +1,55 @@
 /* pages/todos/todos.wxss */
 .container{
     border-top: 1rpx solid #333;
+    padding: 0 20rpx;
 }
 
 .search{
     display: flex;
-    border: 1rpx solid #999;
+    border: 1rpx solid #999999;
+    margin: 20rpx 0;
+    align-items: center;
+}
+
+.search image{
+    width: 50rpx;
+    height: 50rpx;
+    padding: 0 10rpx;
+}
+
+.search input{
+    height: 80rpx;
+    line-height: 80rpx;
+    flex: 1;
+    font-size: 36rpx;
+}
+
+.todos{
+    border: 1rpx solid #eee;
+}
+
+.todos-item{
+    border-bottom: 1rpx solid #eee;
+    height: 70rpx;
+    font-size: 26rpx;
+    display: flex;
+    align-items: center;
+    padding: 0 10rpx;
+}
+.todos-item:last-child{
+    border: 0;
+}
+.todos-item .todos-content{
+    flex: 1;
+    margin: 0 10rpx;
+}
+.todos-item .todos-content.completed{
+    color: #555;
+    text-decoration: line-through;
+}
+.footer{
+    display: flex;
     margin-top: 20rpx;
+    justify-content: space-between;
+    font-size: 28rpx;
 }
